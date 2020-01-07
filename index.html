@@ -6,70 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio | Kara Bruce</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!--When ready for CSS
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">   
-        <link rel="stylesheet" type="text/css" href="css/style.css"> 
-        -->
-    <!--    <nav>
-    Logo image to be added-
-            <img src="/media/images/logo.svg" alt="Kara Bruce Personal Logo">
-    <p>Kara Bruce</p>-->
-    <!--ADD A HAMBURGER MENU HERE?
-                <li>Projects</li>
-                <li>About</li>
-                <li>Resume</li>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+    <nav>
+        <div class="nav_logo">
+            <a href="index.html"><img src="./media/images/karalogo.svg" alt="Kara Bruce Logo" /></a>
+        </div>
+        <div class="nav_links">
+            <ul>
+                <li><a href="./pages/projects.html">Projects</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="media/documents/efrencast-resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://aemail.com/jX4">Contact</a></li>
             </ul>
-    </nav>-->
-    <!--Introduction heading-->
-    <section>
-        <span>Hi!</span>
-        <h2>My name is Kara.</h2>
-        <p>UX/UI Designer with special interest in Frontend Development.</p>
-        <p>
-            Forever analysing the expanding world of economics, advertising and
-            psychology.
-        </p>
-        <img src="/media/images/arrows/down-arrow.svg" alt="down arrow"/>
-    </section>
-    <!--Project/Article One-->
-    <section>
-        <h3>UX | UI | Branding</h3>
-        <h2>Game Of...</h2>
-        <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
-        <p>
-            Connect with your friends and people from around the world. Share with
-            others who enjoy the same sports, who want to push each other to
-            progress and most importantly, have fun!
-        </p>
-        <button type="button">See Case Study</button>
-    </section>
+        </div>
+    </nav>
+    <div class="container">
+        <!--Do I need div class if i have section classes?-->
+        <!-- banner -->
+        <section class="Intro">
+            <span>Hi!</span>
+            <h2>My name is Kara.</h2>
+            <p>UX/UI Designer with special interest in Frontend Development.</p>
+            <p>
+                Forever analysing the expanding world of economics, advertising and
+                psychology.
+            </p>
+        </section>
+        <!-- <a href="./pages/projects.html" class="button">See my recent projects</a> -->
+        <!-- <img src="./media/images/caret-down-solid.svg" alt="Click this arrow to seemy latest projects"/> -->
+        </section>
+        <div class="Down Arrow">
+            <img src="/media/images/arrows/down-arrow.svg" alt="down arrow" />
+        </div>
+        <!--Project/Article One-->
+        <section>
+            <h3>UX | UI | Branding</h3>
+            <h2>Game Of...</h2>
+            <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
+            <p>
+                Connect with your friends and people from around the world. Share with
+                others who enjoy the same sports, who want to push each other to
+                progress and most importantly, have fun!
+            </p>
+            <!--ADD SITE LINK HERE-->
+            <a class="button" href="">See Case Study</a>
+        </section>
 
-    <!--Project/Article Two-->
-    <section>
-        <h3>Javascript | JQuery | HTML/CSS</h3>
-        <h2>Bloc Jams</h2>
-        <img src="/media/images/BlocJam.png" alt="View of Bloc Jams Interface" />
-        <p>
-            A starter project for Bloc's JQuery centric music player application
-        </p>
-        <button type="button">View Website</button>
-    </section>
+        <!--Project/Article Two-->
+        <section>
+            <h3>Javascript | JQuery | HTML/CSS</h3>
+            <h2>Bloc Jams</h2>
+            <img src="/media/images/BlocJam.png" alt="View of Bloc Jams Interface" />
+            <p>
+                A starter project for Bloc's JQuery centric music player application
+            </p>
+            <!--ADD SITE LINK HERE-->
+            <a class="button" href="">View Website</a>
+        </section>
 
-    <!--Project/Article Three-->
-    <section>
-        <!--Is this deemed "full stack"?-->
-        <h3>UX | UI | Branding | Javascript | HTML/CSS</h3>
-        <h2>Busy Bus</h2>
-        <img src="/media/images/BusyBus.png" alt="View of Busy Bus Interface" />
-        <p>
-            Full Stack Project based around commuters requiring an improved travel
-            experience
-        </p>
-        <button type="button">View Prototype</button>
-    </section>
+        <!--Project/Article Three-->
+        <section>
+            <!--Is this deemed "full stack"?-->
+            <h3>UX | UI | Branding | Javascript | HTML/CSS</h3>
+            <h2>Busy Bus</h2>
+            <img src="/media/images/BusyBus.png" alt="View of Busy Bus Interface" />
+            <p>
+                Full Stack Project based around commuters requiring an improved travel
+                experience
+            </p>
+            <!--ADD SITE LINK HERE-->
+            <a class="button" href="">View Prototype</a>
+        </section>
+    </div>
 
     <!--Project/Article Four = THIS WAS ON ANOTHER PORTFOLIO BUT NOT SURE HOW I FEEL ABOUT ADDING SUCH A THING?
         <article>
@@ -80,29 +104,27 @@
                         find an alternative beneficial way to integrate the results creatively and methodically.
                     </p>
                 </article>-->
+    <footer class="mdl-mini-footer">
+        <ul class="mdl-mini-footer__link-list">
+            <li><a href"https://www.linkedin.com/in/karabruce/"> <i class="fab fa-linkedin" aria-hidden="true"></img>
+                </a>
+            </li>
+            <li><a href"https://github.com/kindasortamaybe3"> <i class="fab fa-github-square" aria-hidden="true"></img>
+                </a>
+            </li>
+            <li><a href"https://www.facebook.com/kara.gaetzbruce"> <i class="fab fa-facebook-square"
+                    aria-hidden="true"></i>
+                </a>
+            </li>
+            <li><a href"https://twitter.com/KaraGaetzBruce"> <i class="fab fa-twitter-square" area-hidden="true"></i>
+                </a>
+            </li>
+            <li><a href"mailto:kindasortamaybe3@gmail.com">
+                    <i class="fas fa-envelope-square" area-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
-<!--<footer class="mdl-mini-footer">
-                <ul>
-                    <li>
-                        <a href"https://www.linkedin.com/in/karabruce/"></a>
-                    </li>
-                    <li>
-                        <a href"https://github.com/kindasortamaybe3">
-                        </a>
-                    </li>
-                    <li>
-                        <a href"https://www.facebook.com/kara.gaetzbruce">
-                        </a>
-                    </li>
-                    <li>
-                        <a href"https://twitter.com/KaraGaetzBruce">
-                        </a>
-                    </li>
-                    <li>
-                        <a href"mailto:kindasortamaybe3@gmail.com">
-                        </a>
-                    </li>
-                </ul>
-            </footer> -->
 
 </html>
