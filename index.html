@@ -2,94 +2,125 @@
 <html lang="en">
 
 <head>
+    <!--ANALYTICS BELOW 
+        Global site tag (gtag.js) - Google Analytics
+    <script async src="GOOGLE LINK HERE">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-139314064-1');
+    </script>-->
+
     <meta charset="UTF-8" />
+    <meta name="author" content="Kara Bruce">
+    <meta name="description"
+        content="UX/UI Designer with special interest in Frontend Development. Forever analysing the expanding world of economics, advertising and psychology.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio | Kara Bruce</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/css/style.css">
+    <!--<link rel="stylesheet" href="/styles/mediaqueries.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
-
+    <!--NAVIGATION-->
     <nav>
         <div class="nav_logo">
-            <a href="index.html"><img src="./media/images/karalogo.svg" alt="Kara Bruce Logo" /></a>
+            <a href=index.html">
+                <img src="/media/images/karalogo.svg" alt="Kara Bruce Logo" /></a>
         </div>
         <div class="nav_links">
             <ul>
-                <li><a href="./pages/projects.html">Projects</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="media/documents/efrencast-resume.pdf" target="_blank">Resume</a></li>
-                <li><a href="https://aemail.com/jX4">Contact</a></li>
+                <li><a href="project.html" class="active">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="documents/UXJan3rd2020.pdf">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!--NOT SRUE? <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a></li>-->
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <!--Do I need div class if i have section classes?-->
-        <!-- banner -->
-        <section class="Intro">
-            <span>Hi!</span>
-            <h2>My name is Kara.</h2>
-            <p>UX/UI Designer with special interest in Frontend Development.</p>
-            <p>
-                Forever analysing the expanding world of economics, advertising and
-                psychology.
-            </p>
+
+    <div class="gift-wrapper">
+        <!--BANNER = INTRO-->
+        <section class="banner" data-aos="zoom-out">
+            <div class="banner_txt">
+                <!--Do I need div class if i have section classes?-->
+                <!-- banner -->
+                <h2>Hi,</h2>
+                <h1>My name is Kara.</h1>
+                <p>UX/UI Designer with special interest in Frontend Development.</p>
+                <p>
+                    Forever analysing the expanding world of economics, advertising and
+                    psychology.
+                </p>
+            </div>
+
+
+
         </section>
         <!-- <a href="./pages/projects.html" class="button">See my recent projects</a> -->
         <!-- <img src="./media/images/caret-down-solid.svg" alt="Click this arrow to seemy latest projects"/> -->
         </section>
-        <div class="Down Arrow">
+        <div class="downarrow">
             <img src="/media/images/arrows/down-arrow.svg" alt="down arrow" />
         </div>
         <!--Project/Article One-->
-        <section>
-            <h3>UX | UI | Branding</h3>
-            <h2>Game Of...</h2>
-            <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
-            <p>
-                Connect with your friends and people from around the world. Share with
-                others who enjoy the same sports, who want to push each other to
-                progress and most importantly, have fun!
-            </p>
+        <section class="project">
+            <div class="project_txt">
+                <h3>UX | UI | Branding</h3>
+                <h2>Game Of...</h2>
+                <p>
+                    Connect with your friends and people from around the world. Share with
+                    others who enjoy the same sports, who want to push each other to
+                    progress and most importantly, have fun!
+                </p>
+            </div>
+            <div class="project_img">
+                <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
+            </div>
             <!--ADD SITE LINK HERE-->
             <a class="button" href="">See Case Study</a>
         </section>
-
         <!--Project/Article Two-->
-        <section>
-            <h3>Javascript | JQuery | HTML/CSS</h3>
-            <h2>Bloc Jams</h2>
-            <img src="/media/images/BlocJam.png" alt="View of Bloc Jams Interface" />
-            <p>
-                A starter project for Bloc's JQuery centric music player application
-            </p>
+        <section class="project project-2">
+            <div class="project_txt">
+                <h3>Javascript | JQuery | HTML/CSS</h3>
+                <h2>Bloc Jams</h2>
+                <p>
+                    A starter project for Bloc's JQuery centric music player application
+                </p>
+            </div>
+            <div class="project_img">
+                <img src="/media/images/BlocJam.png" alt="View of Bloc Jams Interface" />
+            </div>
             <!--ADD SITE LINK HERE-->
             <a class="button" href="">View Website</a>
         </section>
 
         <!--Project/Article Three-->
-        <section>
+        <section class="project project-3">
             <!--Is this deemed "full stack"?-->
-            <h3>UX | UI | Branding | Javascript | HTML/CSS</h3>
-            <h2>Busy Bus</h2>
-            <img src="/media/images/BusyBus.png" alt="View of Busy Bus Interface" />
-            <p>
-                Full Stack Project based around commuters requiring an improved travel
-                experience
-            </p>
+            <div class="project_txt">
+                <h3>UX | UI | Branding | Javascript | HTML/CSS</h3>
+                <h2>Busy Bus</h2>
+                <p>
+                    Full Stack Project based around commuters requiring an improved travel
+                    experience
+                </p>
+            </div>
+            <div class="project_img">
+                <img src="/media/images/BusyBus.png" alt="View of Busy Bus Interface" />
+            </div>
             <!--ADD SITE LINK HERE-->
             <a class="button" href="">View Prototype</a>
         </section>
