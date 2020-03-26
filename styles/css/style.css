@@ -29,7 +29,7 @@ p {
   font-family: 'arial', 'sans serif';
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 2rem;
 }
 
@@ -171,6 +171,11 @@ em {
   color: #792D52;
 }
 
+.downarrow {
+  padding: 3rem;
+  text-align: center;
+}
+
 .hide-on-mobile {
   display: none;
 }
@@ -297,7 +302,6 @@ video {
 nav {
   align-items: center;
   background-color: white;
-  background:rgba(255,255,255,.9);
   display: flex;
   justify-content: space-between;
   height: 7rem;
@@ -309,7 +313,7 @@ nav {
 
 .nav_logo {
   margin-left: 1rem;
-  width: 3rem;
+  width: 4rem;
 }
 
 .nav_links {
@@ -352,16 +356,11 @@ nav {
   font-size: 2rem;
   line-height: 3.2rem;
   margin-top: 2rem;
+  text-align: center;
 }
 
 .banner_txt strong {
   font-weight: normal;
-}
-
-.banner img {
-  margin-left: 8rem;
-  position: absolute;
-  bottom: 0;
 }
 
 /* latest */
