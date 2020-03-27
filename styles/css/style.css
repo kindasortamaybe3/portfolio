@@ -217,7 +217,7 @@ hr {
 }
 
 .red-circle {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
   background: red;
   border-radius: 0.5em;
   -moz-border-radius: 0.8em;
@@ -231,7 +231,7 @@ hr {
 }
 
 .green-circle {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
   background: LimeGreen;
   border-radius: 0.5em;
   -moz-border-radius: 0.8em;
@@ -280,28 +280,29 @@ video {
 /* styles for living gradient */
 
 .banner {
-	background: #23213B;
-	background-size: 400% 400%;
-	animation: gradient 8s ease infinite;
+  background: #23213B;
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* navigation */
-
 nav {
   align-items: center;
-  background-color: white;
+  background-color: #FFF1EF;
   display: flex;
   justify-content: space-between;
   height: 7rem;
@@ -330,7 +331,7 @@ nav {
 }
 
 .nav_links a:hover {
-  color:#ff493d;
+  color: #792D52;
 }
 
 /* banner */
@@ -346,13 +347,13 @@ nav {
 }
 
 .banner_txt h2 {
-  color:#FFF1EF;
+  color: #FFF1EF;
   font-size: 3rem;
   letter-spacing: 0.1rem;
 }
 
 .banner p {
-  color:#FFF1EF;
+  color: #FFF1EF;
   font-size: 2rem;
   line-height: 3.2rem;
   margin-top: 2rem;
@@ -364,7 +365,6 @@ nav {
 }
 
 /* latest */
-
 .latest {
   margin: 4rem 3rem;
 }
@@ -379,9 +379,7 @@ nav {
 }
 
 /* projects */
-
 .project {
-  background-color:#23213B;
   padding: 6rem 2rem;
 }
 
@@ -393,23 +391,50 @@ nav {
   width: 100%;
 }
 
-.project p {
+/*paragraph font for each project section in homescreen*/
+/*game of, busy bus*/
+.project-1 p {
   color: #FFF1EF;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  padding: 6rem 2rem;
 }
 
-.project h2 {
+/*h2 font for each project section in homescreen*/
+/*game of, busy bus*/
+.project-1 h2 {
   color: #F8A094;
+  background-color: #23213B;
 }
 
-.project-2 {
-  color: #F8A094;
+/*game of, busy bus*/
+/*ux ui branding*/
+.project-1 h3 {
+  color:#792D52;
+  background-color: #23213B;
+}
+
+/*game of, busy bus*/
+.project-1 {
+  color:#792D52;
+  background-color: #23213B;
+}
+
+/*bloc jams*/
+.project-2, h2 {
+  color: #792D52;
   background-color: #FFF1EF;
 }
 
-.project, .project-3 {
-  color: #F8A094;
-  background-color:#23213B;
+/*bloc jams*/
+.project-2 h3 {
+  color:#23213B;
+  background-color: #FFF1EF;
 }
+
 
 /* testimonials *****************************************/
 
@@ -427,33 +452,33 @@ nav {
 essential styles:
 these make the slideshow work
 */
-#slides{
-	position: relative;
-	height: 150px;
-	padding: 0px;
-	margin: 0px;
-	list-style-type: none;
+#slides {
+  position: relative;
+  height: 150px;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
   /* margin-bottom: 10rem; */
 }
 
-.slide{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	z-index: 1;
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
 
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-	-o-transition: opacity 1s;
-	transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
-.showing{
-	opacity: 1;
-	z-index: 2;
+.showing {
+  opacity: 1;
+  z-index: 2;
 }
 
 /*
@@ -461,12 +486,12 @@ non-essential styles:
 just for appearance; change whatever you want
 */
 
-.slide{
-	font-size: 1.5rem;
-	padding: 40px;
-	box-sizing: border-box;
-	background: #333;
-	color: #fff;
+.slide {
+  font-size: 1.5rem;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #333;
+  color: #fff;
   background-color: #F2F2F2;
 }
 
@@ -557,10 +582,11 @@ just for appearance; change whatever you want
   padding-bottom: 6rem;
 }
 
-.grip-wrapper .project {
+.grip-wrapper .project-busybus{
   padding-top: 10rem;
+  background-color: #23213B;
+  }
   /* background-color: #073443; */
-}
 
 .grip-wrapper .project-gameof {
   padding-top: 10rem;
@@ -569,8 +595,7 @@ just for appearance; change whatever you want
 
 .grip-wrapper .project-blocjams {
   padding-top: 10rem;
-  background-color: #073443;
-  background-color: #323943;
+  background-color: #23213B;
 }
 
 .project-banner_img img {
@@ -714,7 +739,8 @@ just for appearance; change whatever you want
   margin-top: 2rem;
 }
 
-.persona-1 ul, .persona-2 ul {
+.persona-1 ul,
+.persona-2 ul {
   padding-top: 0;
 }
 
@@ -736,7 +762,8 @@ table {
   font-size: 1.5rem;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #073443;
   padding: 8px;
 }
@@ -816,7 +843,7 @@ th {
   padding: 0 2.5rem;
 }
 
-.usability-testing-explanation-global  {
+.usability-testing-explanation-global {
   margin-bottom: 6rem;
 }
 
@@ -1012,7 +1039,7 @@ th {
   color: #073443;
 }
 
-.banner-contact .fab:first-child  {
+.banner-contact .fab:first-child {
   padding-left: 0rem;
 }
 
@@ -1030,7 +1057,7 @@ label {
 }
 
 input[type=text] {
-color: #494949;
+  color: #494949;
 }
 
 form {
@@ -1172,7 +1199,7 @@ footer {
 }
 
 .footer_txt h2:hover {
-  color:#ff493d;
+  color: #ff493d;
 }
 
 .rollover:hover {
