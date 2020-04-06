@@ -2,35 +2,50 @@
 <html lang="en">
 
 <head>
+  <!--ANALYTICS BELOW 
+        Global site tag (gtag.js) - Google Analytics
+    <script async src="GOOGLE LINK HERE">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-139314064-1');
+    </script>-->
+
   <meta charset="UTF-8" />
   <meta name="author" content="Kara Bruce">
   <meta name="description"
     content="UX/UI Designer with special interest in Frontend Development. Forever analysing the expanding world of economics, advertising and psychology.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Of... | Kara Bruce</title>
+  <title>Game Of | Kara Bruce</title>
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" type="text/css" href="styles/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles/css/style.css">
+  <!--<link rel="stylesheet" href="/styles/mediaqueries.css">-->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
-<body>
+<body class="back-to-top">
+  <!--NAVIGATION-->
   <nav class="nav">
-      <a href="index.html"">
-            <img src="/media/images/karalogo.svg" class="nav_logo ="Kara Bruce Logo" /></a>
-    </div>
+    <a href="./index.html">
+      <img src="/media/images/karalogo.svg" class="nav_logo"="Kara Bruce Logo" /></a>
     <div class="nav_links">
       <ul>
-          <ul><a href="project.html" class="active">Projects</a></ul>
-          <ul><a href="about.html">About</a></ul>
-          <ul><a href="documents/UXJan3rd2020.pdf">Resume</a></ul>
-          <ul><a href="contact.html">Contact</a></ul>
-          <!--NOT SRUE? <ul><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
-                  </a></ul>-->
+        <li><a href="project.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="documents/UXUI26March2020.pdf" class="active">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!--NOT SRUE? <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>-->
       </ul>
-  </div>
+    </div>
   </nav>
   <div class="grip-wrapper">
     <!--Introduction-->
@@ -44,17 +59,17 @@
           Share with others who enjoy the same sports, who want to push each other
           to progress and of course, have fun!
         </p>
-      <div class="project img">
-        <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
-      </div>
-      <a class="button-light-dark"
-        href="https://xd.adobe.com/view/da6eff93-7e60-4311-6887-afa3b3c83f85-ac5f/?fullscreen&hints=off">View
-        Prototype</a>
+        <div class="project img">
+          <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
+        </div>
+        <a class="button-dark"
+          href="https://xd.adobe.com/view/da6eff93-7e60-4311-6887-afa3b3c83f85-ac5f/?fullscreen&hints=off">View
+          Prototype</a>
     </section>
   </div>
   <!--Project Summary-->
   <!--below to be in a PURPLE TEXT BOX-->
-  
+
   <section class="project-dark">
     <h2>
       The Client Brief
@@ -212,9 +227,9 @@
           other means such as slack & discord channels.
         </p>
         <h4>Key Considerations</h4>
-          <ul>How is cloud storage being used</ul>
-          <ul>What do they value as the key features?</ul>
-          <ul>Is there room for real-time collaboration?</ul>
+        <ul>How is cloud storage being used</ul>
+        <ul>What do they value as the key features?</ul>
+        <ul>Is there room for real-time collaboration?</ul>
         <p>
           Importance was placed on finding users that participate in the use of
           cloud storage software, as described in the brief.
@@ -300,6 +315,7 @@
           Analysis</a>
       </section>
       <section class="User Personas">
+        <h2>User Personas</h2>
         <p>
           Personas help expand our understanding of user needs, exploring who our
           main audience is, and how we can try to solve their current
@@ -309,95 +325,96 @@
         <div class="project img">
           <img src="/media/images/Nikki.png" alt="User Persona Nikki" />
         </div class="project img">
-          <ul>Nikki Bishop</ul>
-          <ul>32</ul>
-          <ul>Female</ul>
-          <ul>
-            Occupation: Graphic Designer
-          </ul>
-          <ul>
-            Usage: Daily
-          </ul>
-          <ul>
-            Version: Paid
-          </ul>
-          <ul>
-            Artistic
-          </ul>
-          <ul>
-            Goals:
-          </ul>
-          <ul>
-            More free storage
-          </ul>
-          <ul>
-            Offline access/not wifi dependent
-          </ul>
-          <ul>
-            Increased searchability
-          </ul>
-          <ul>
-            Pain Points:
-          </ul>
-          <ul>
-            The cost
-          </ul>
-          <ul>
-            Lack of features
-          </ul>
-          <ul>
-            iCloud “it is a toilet”
-          </ul>
+        <ul><u><strong>Nikki Bishop</strong></u></ul>
+        <ul>32</ul>
+        <ul>Female</ul>
+        <ul>
+          <em>Occupation: </em>Graphic Designer
+        </ul>
+        <ul>
+          <em>Usage:</em> Daily
+        </ul>
+        <ul>
+          <em>Version: </em>Paid
+        </ul>
+        <ul>
+          Artistic
+        </ul>
+        <ul>
+          <u><strong>Goals:</strong></u>
+        </ul>
+        <ul>
+          More free storage
+        </ul>
+        <ul>
+          Offline access/not wifi dependent
+        </ul>
+        <ul>
+          Increased searchability
+        </ul>
+        <ul>
+          <strong>Pain Points:</strong>
+        </ul>
+        <ul>
+          The cost
+        </ul>
+        <ul>
+          Lack of features
+        </ul>
+        <ul>
+          iCloud “it is a toilet”
+        </ul>
         <div class="project img">
           <img src="/media/images/Sarah.png" alt="User Persona Sarah" />
-        </div class="project img">
-          <ul>Sara Jakob</ul>
-          <ul>36</ul>
-          <ul>Female</ul>
-          <ul>
-            Occupation: Carpenter
-          </ul>
-          <ul>
-            Usage: Casual
-          </ul>
-          <ul>
-            Version: Free
-          </ul>
-          <ul>
-            Active
-          </ul>
+        </div>
+        <ul>
+          <strong><u>Sara Jakob</u></strong>
         </ul>
         <ul>
-          <ul>
-            Goals:
-          </ul>
-          <ul>
-            More storage & ability to load bigger files
-          </ul>
-          <ul>
-            Incentives for use
-          </ul>
-          <ul>
-            Improved privacy & security
-          </ul>
+          36
         </ul>
         <ul>
-          <ul>
-            Pain Points:
-          </ul>
-          <ul>
-            Cost
-          </ul>
-          <ul>
-            Fear of account being compromised
-          </ul>
-          <ul>
-            Not enough free storage
-          </ul>
+          Female
+        </ul>
+        <ul>
+          <em>Occupation: </em>Carpenter
+        </ul>
+        <ul>
+          <em>Usage: </em>Casual
+        </ul>
+        <ul>
+          <em>Version: </em>Free
+        </ul>
+        <ul>
+          Active
+        </ul>
+        <ul>
+          <strong><u>Goals:</u></strong>
+        </ul>
+        <ul>
+          More storage & ability to load bigger files
+        </ul>
+        <ul>
+          Incentives for use
+        </ul>
+        <ul>
+          Improved privacy & security
+        </ul>
+        <ul>
+          <strong><u>Pain Points:</u></strong>
+        </ul>
+        <ul>
+          Cost
+        </ul>
+        <ul>
+          Fear of account being compromised
+        </ul>
+        <ul>
+          Not enough free storage
+        </ul>
         <a class="button-dark"
           href="https://docs.google.com/presentation/d/16K3d_kDcwpQm2EkQ35ZpVD4QEW2hBi2QKD8LGaRmuqI/edit?usp=sharing">View
-          Analysis</a>
-        <h2>User Personas</h2>
+          Personas</a>
         <p>
           Users had combined frustrations across the board although in slightly
           different forms. Knowing their goals was important but addressing pain
@@ -405,9 +422,10 @@
         </p>
       </section>
     </section>
-    <section class="project-light">
-      <img src="media/images/icons/InfoArch.svg" alt="Information Architecture Icon" />
-      <h1>Information Architecture</h1>
+  </section>
+  <section class="project-light">
+    <img src="/media/images/icons/InfoArch.svg" alt="icon for Information Architecture" />
+    <h1>Information Architecture</h1>
     <section class="User stories">
       <h2>User Stories</h2>
       <p>
@@ -422,10 +440,10 @@
         href="https://docs.google.com/spreadsheets/d/1Q8DIqeII9P8vL7gZAedia-wVyn5n3fEv2XQN4ymmiKM/edit?usp=sharing"
         class=>View User Stories</a>
       <p>
-    <section class="User Flows">
-      User Stories were integral in developing User Flows to visually show the
-      hierarchy of needs established in the spreadsheet and figuring out how
-      to get from each area at greater ease and less thought processing.
+        <section class="User Flows">
+          User Stories were integral in developing User Flows to visually show the
+          hierarchy of needs established in the spreadsheet and figuring out how
+          to get from each area at greater ease and less thought processing.
       </p>
       <div class="project img">
         <img src="media/images/Onboarding.png" alt="User Flows Images" />
@@ -478,94 +496,94 @@
       </p>
     </section>
   </section>
-  
+
   <section class="project-lightest">
     <img src="/media/images/icons/VisualDesign.svg" alt="Visual Design Icon">
     <h1>Visual Design</h1>
-  <section class="Concept">
-    <h2>Concept & Identity</h2>
-    <img src="/media/images/addthings.png" alt="Prototype image of design for adding">
+    <section class="Concept">
+      <h2>Concept & Identity</h2>
+      <img src="/media/images/addthings.png" alt="Prototype image of design for adding">
+      <p>
+        Using these values and brand characteristics we created a moodboard to
+        see where current popular image searches were coming up based on our key
+        values.
+      </p>
+      <img src="/media/images/MoodBoard/Moodboard.png" alt="Moodboard 1">
+      <img src="/media/images/MoodBoard/Moodboard2.png" alt="Moodboard 2">
+    </section>
+    <section class="Color Scheme">
+      <h2>Colour Scheme</h2>
+      <p>
+        An orange hue was originally the chosen hue but was quite soft for the
+        image needed.
+      </p>
+      <p>
+        Orange represents things like enthusiasm, determination, success,
+        encouragement and stimulation Red is a very emotionally intense color.
+        It enhances human metabolism, increases respiration rate, and raises
+        blood pressure.
+      </p>
+      <img src="/media/images/colour.png" alt="Colour choices">
+      <p>
+        Combined with the original undercurrents of orange with the slight
+        “coral” colouring, it combines these aspects.
+      </p>
+    </section>
+    <section class="Logo Design">
+      <h2>Logo Design</h2>
+      <p>
+        In keeping with the geometric fonts, we began to sketch up some ideas
+        for a name for our site.
+      </p>
+      <p>
+        Simple enough to stand out without cluttering a space, dynamic enough to
+        change over time, or use elements of the word mark as icons throughout
+        the app
+      </p>
+    </section>
+    <section class="Hand Sketches">
+      <h4>Hand Sketches</h4>
+      <img src="media/images/HandSketch.png" alt="Hand drawn sketch of the logo">
+      <h4>Digital Sketches</h4>
+      <img src="media/images/DigitalSketch.png" alt="Digital Sketch of the logo">
+      <p>
+        “Game Of…” allows space for continuation of the wording while still
+        keeping it’s own identity. The ability to abbreviate into “G.O.” sealed
+        the deal for the decision.
+      </p>
+    </section>
+    <section class="Digital Font">
+      <h4>Digital Iteration Font</h4>
+      <img src="media/images/gameoffont.png" alt="Font Style of the Game Of... logo">
+      <!--below to be in a PURPLE TEXT BOX-->
+      <p>
+        Game Of… and the circular iconographic logo is representative of
+        movement and motion. The icon is an abstract representation of the
+        brand.
+      </p>
+    </section>
+    <section class="Digital Iterations">
+      <h4>Digital Iterations</h4>
+      <img src="media/images/GoBW.png" alt="Logo Black and White">
+      <!--below to be in a PURPLE TEXT BOX-->
+      <p>
+        Keeping the logo somewhat monochromatic allows for future use of
+        applying a colour to represent what activity you will be playing.
+      </p>
+    </section>
+    <h4>With Colour</h4>
+    <img src="media/images/GoColour.png" alt="Logo in Colour">
+    <h2>Typography</h2>
     <p>
-      Using these values and brand characteristics we created a moodboard to
-      see where current popular image searches were coming up based on our key
-      values.
+      To keep with imagery of flow, consistency and togetherness, we wanted to
+      go with a geometric font.
     </p>
-    <img src="/media/images/MoodBoard/Moodboard.png" alt="Moodboard 1">
-    <img src="/media/images/MoodBoard/Moodboard2.png" alt="Moodboard 2">
-  </section>
-  <section class="Color Scheme">
-    <h2>Colour Scheme</h2>
+    <img src="media/images/Typography.png" alt="Typography image">
     <p>
-      An orange hue was originally the chosen hue but was quite soft for the
-      image needed.
+      Something clear, concise and bold, yet playful and inclusive. A humanist
+      font added an extra layer of creativity that we wanted to reserve for the
+      user to utilize.
     </p>
-    <p>
-      Orange represents things like enthusiasm, determination, success,
-      encouragement and stimulation Red is a very emotionally intense color.
-      It enhances human metabolism, increases respiration rate, and raises
-      blood pressure.
-    </p>
-    <img src="/media/images/colour.png" alt="Colour choices">
-    <p>
-      Combined with the original undercurrents of orange with the slight
-      “coral” colouring, it combines these aspects.
-    </p>
-  </section>
-  <section class="Logo Design">
-    <h2>Logo Design</h2>
-    <p>
-      In keeping with the geometric fonts, we began to sketch up some ideas
-      for a name for our site.
-    </p>
-    <p>
-      Simple enough to stand out without cluttering a space, dynamic enough to
-      change over time, or use elements of the word mark as icons throughout
-      the app
-    </p>
-  </section>
-  <section class="Hand Sketches">
-    <h4>Hand Sketches</h4>
-    <img src="media/images/HandSketch.png" alt="Hand drawn sketch of the logo">
-    <h4>Digital Sketches</h4>
-    <img src="media/images/DigitalSketch.png" alt="Digital Sketch of the logo">
-    <p>
-      “Game Of…” allows space for continuation of the wording while still
-      keeping it’s own identity. The ability to abbreviate into “G.O.” sealed
-      the deal for the decision.
-    </p>
-  </section>
-  <section class="Digital Font">
-    <h4>Digital Iteration Font</h4>
-    <img src="media/images/gameoffont.png" alt="Font Style of the Game Of... logo">
-    <!--below to be in a PURPLE TEXT BOX-->
-    <p>
-      Game Of… and the circular iconographic logo is representative of
-      movement and motion. The icon is an abstract representation of the
-      brand.
-    </p>
-  </section>
-  <section class="Digital Iterations">
-    <h4>Digital Iterations</h4>
-    <img src="media/images/GoBW.png" alt="Logo Black and White">
-    <!--below to be in a PURPLE TEXT BOX-->
-    <p>
-      Keeping the logo somewhat monochromatic allows for future use of
-      applying a colour to represent what activity you will be playing.
-    </p>
-  </section>
-  <h4>With Colour</h4>
-  <img src="media/images/GoColour.png" alt="Logo in Colour">
-  <h2>Typography</h2>
-  <p>
-    To keep with imagery of flow, consistency and togetherness, we wanted to
-    go with a geometric font.
-  </p>
-  <img src="media/images/Typography.png" alt="Typography image">
-  <p>
-    Something clear, concise and bold, yet playful and inclusive. A humanist
-    font added an extra layer of creativity that we wanted to reserve for the
-    user to utilize.
-  </p>
   </section>
   <section class="Style Guide">
     <h2>Style Guide</h2>
@@ -575,7 +593,8 @@
       bible for outlying the visuals and their weights to the site.
     </p>
     <img src="media/images/StyleGuide.png" alt="Style Guide">
-    <a class="button-light" href="https://drive.google.com/file/d/10_HxkSTV1kjW33h998c3QX42ujT88jPl/view?usp=sharing">Style
+    <a class="button-light"
+      href="https://drive.google.com/file/d/10_HxkSTV1kjW33h998c3QX42ujT88jPl/view?usp=sharing">Style
       Guide</a>
   </section>
   <section class="HiFi Mockups">
@@ -588,7 +607,7 @@
     <a class="button-light" href="https://www.dropbox.com/sh/xa04peotvxct60s/AADOFNs3qt4rYyoYfCKU2pSNa?dl=0">Hi Fi
       Mockups</a>
   </section>
-</section>
+  </section>
   <section class="project-dark">
     <img src="media/images/icons/UserTests.svg" alt="User Testing Icon">
     <h1>User Testing and Iterations</h1>
@@ -676,7 +695,7 @@
     </ul>
   </footer>
   </div>
-</div>
+  </div>
 </body>
 
 

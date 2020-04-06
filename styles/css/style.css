@@ -17,7 +17,7 @@ html {
 
 /*THIS EFFECTS THE NAVBAR - BUT WHY??*/
 a {
-  color: #073443;
+  color: #23213B;
   font-family: 'arial', 'sans serif';
   font-style: normal;
   font-weight: bold;
@@ -427,7 +427,7 @@ nav {
 .project-dark {
   color: #792D52;
   background-color: #23213B;
-  padding: 1rem 0 1rem 0
+  padding: 4rem 0 4rem 0
 }
 
 .project-dark p {
@@ -460,6 +460,7 @@ nav {
 /*BLOC JAMS*/
 .project-light {
   background-color: #FFF1EF;
+  padding: 4rem 0 4rem 0
 }
 
 /*BLOC JAMS*/
