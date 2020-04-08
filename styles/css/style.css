@@ -32,7 +32,7 @@ p {
   font-weight: normal;
   font-size: 2rem;
   line-height: 150%;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -74,15 +74,13 @@ h3 {
 
 h4 {
   font-family: 'Varela Round', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-letter-spacing: 0.01em;
-
-/* Light */
-
-color: #F1C3CB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  /* Light */
+  color: #F1C3CB;
 }
 
 
@@ -716,15 +714,36 @@ just for appearance; change whatever you want
 }
 
 .brief_specs {
-  background-color: #D0DEE8;
-  padding: 6rem 2.5rem;
-  text-align: center;
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 3rem;
+  color: #ffffff;
 }
 
-.brief_specs ul {
-  list-style-type: none;
-  padding-top: 0rem;
-  padding-left: 0rem;
+.brief_specs,
+h2,
+h3 {
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text_box {
+  background-color: #792D52;
+  border-radius: 3rem;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: left;
+}
+
+.banner-purple {
+  background-color: #7D556A;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
 }
 
 /* research */
