@@ -363,7 +363,9 @@ nav {
 .banner {
   /* background-image: linear-gradient(-90deg, #4bf19f, #53c2b4); */
   background: #23213B;
+ /* what is this vh height about?
   height: 100vh;
+  */
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
@@ -446,9 +448,12 @@ nav {
 
 /*game of, busy bus*/
 /*ux ui branding*/
-.project-dark h3 {
+.project-dark p {
   color: #FFF1EF;
+}
 
+.project-dark h3 {
+  color: #F8A094;
 }
 
 .project-lightest {
@@ -499,17 +504,18 @@ nav {
   padding: 10rem 0;
 }
 
+.profjpg
+
 /*
 essential styles:
 these make the slideshow work
-*/
 #slides {
   position: relative;
   height: 150px;
   padding: 0px;
   margin: 0px;
   list-style-type: none;
-  /* margin-bottom: 10rem; */
+  /* margin-bottom: 10rem; 
 }
 
 .slide {
@@ -560,8 +566,8 @@ just for appearance; change whatever you want
 *****************************/
 
 .banner-standard {
-  padding-top: 10rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 
@@ -707,13 +713,11 @@ just for appearance; change whatever you want
   padding-left: 0rem;
 }
 
-/* brief */
+/* BRIEF */
 
-.brief {
-  margin: 0rem 2.5rem 6rem 2.5rem;
-}
 
 .brief_specs {
+  margin: 0rem 2.5rem 6rem 2.5rem;
   text-align: left;
   padding-top: 1rem;
   padding-left: 1rem;
@@ -722,13 +726,8 @@ just for appearance; change whatever you want
   color: #ffffff;
 }
 
-.brief_specs,
-h2,
-h3 {
+.brief_specs h2 h3 {
   text-align: left;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .text_box {
@@ -739,10 +738,33 @@ h3 {
   text-align: left;
 }
 
-.banner-purple {
+.text-box-light {
+  margin: 0rem 2.5rem 6rem 2.5rem;
+  background-color: #7D556A;
+  border-radius: 3rem;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.light-purple {
   background-color: #7D556A;
   color: #ffffff;
   padding: 2rem;
+  text-align: center;
+}
+
+.light-purple, h2, h4 {
+  padding: 2rem;
+  text-align: center;
+}
+
+.light-purple, ul {
+  color: #ffffff;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -1122,7 +1144,7 @@ th {
 .banner-contact .footer_icons {
   text-align: left;
 }
-
+/*
 label {
   color: #073443;
   font-family: 'arial', 'sans serif';
@@ -1198,11 +1220,11 @@ input[type=submit]:hover {
   color: #FFFFFF;
 }
 
-/* read next */
+/* read next 
 
 .read-next {
   text-align: center;
-  /* margin: 10rem 0; */
+  /* margin: 10rem 0; 
 }
 
 .read-next h4 {
