@@ -1,0 +1,1215 @@
+/* media queries for tables */
+@media screen and (min-width: 768px) {
+
+    /* global controls */
+    
+    .margin {
+      margin: 0 auto;
+      max-width: 560px;
+      padding: 0 0rem;
+    }
+    
+    .icon {
+      width: 10%;
+      margin: 6rem 11rem 0rem 11rem;
+    }
+    
+    /* body {
+        background-color: lightyellow;
+    } */
+    
+    h2 {
+      font-size: 4rem;
+    }
+    
+    h5 {
+      color: #796423;
+      font-family: 'Poppins', 'sans serif';
+      font-style: normal;
+      font-weight: 600;
+      font-size: .8rem;
+      line-height: normal;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    
+    .button {
+      font-size: 1.5rem;
+      margin: 2.5rem 4rem 0 0rem;
+        max-width: 280px;
+    }
+    
+    .button-alt {
+      max-width: 280px;
+      margin: 10rem auto;
+    }
+    
+    .button-btp {
+      margin: 4rem 20rem 0 20rem;
+    }
+    
+    .takeaways {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 8rem 4rem;
+    }
+    
+    .hide-on-mobile {
+      display: block;
+    }
+    
+    .hide-on-table-desktop {
+      display: none;
+    }
+    
+    .icon {
+      width: 6%;
+      margin: 1rem 5rem 0rem 5rem;
+      text-align: left;
+    }
+    
+    .block {
+      margin: 0 auto;
+    }
+    
+    .block img {
+      width: 100%;
+      /* margin: 3rem 0 1rem 0; */
+      padding: 0 5rem;
+      max-width: 1200px;
+    }
+    
+    /* navigation */
+    
+    .nav_logo {
+      margin-left: 4rem;
+      width: 3rem;
+    }
+    
+    .nav_links {
+      margin-right: 4rem;
+    }
+    
+    /* styling the last element */
+    .nav_links li:last-child a {
+      color: #063443;
+      border: 1px solid #063443;
+      padding: .5rem 2rem;
+    }
+    
+    /* hover to style the last element */
+    .nav_links li:last-child a:hover {
+      background-color: #ff493d;
+      color: #FFFFFF;
+      border: 1px solid #ff493d;
+    }
+    
+    
+    /* banner */
+    
+    .banner {
+      padding-top: 30rem;
+    }
+    
+    /* projects */
+    
+    .project-img {
+        max-width: 60%;
+        padding: 0 2rem;
+    }
+    
+    .project-light, .project-dark {
+        display: flex;
+        align-items: center;
+    }
+    
+    .project_txt h2 {
+        text-align: left;
+    }
+    
+    .project_txt p {
+        text-align: left;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    
+    .project_txt {
+        padding: 0 2rem 0 0rem;
+    }
+    
+    /* my process */
+    
+    .my-process {
+      margin: 5rem auto;
+    }
+    
+    /****************************
+    ******************* Projects ***
+    *****************************/
+    
+    .banner-standard {
+      padding-top: 20rem;
+      height: 52.5rem;
+    }
+    
+    /****************************
+    ******************* About ***
+    *****************************/
+
+    
+    /*******************************
+    ******************* Projects ***
+    ********************************/
+    
+    /* project-banner */
+    
+    .grip-wrapper .project {
+      padding-top: 15rem;
+      /* background-color: #073443;
+      flex-direction: row-reverse; */
+    }
+    
+    .project-banner_txt p {
+      padding: 0 5rem;
+    }
+    
+    .project-banner_txt h2 {
+      color: white;
+    }
+    
+    .project-banner .project-banner_img {
+      width: 300%;
+    }
+    
+    .project-banner_img {
+        max-width: 100%;
+        padding-right: 5rem;
+    }
+    
+    .project-banner {
+        display: flex;
+        align-items: center;
+      flex-direction: row-reverse;
+    }
+    
+    .project-banner_txt p {
+        text-align: left;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    
+    .project-banner_txt {
+        padding: 0 1rem 0 0rem;
+    }
+    
+    /* summary */
+    
+    .summary {
+      margin: 6rem auto;
+        max-width: 580px;
+    }
+    
+    /* brief */
+    
+    .icon-txt-grid {
+      display: flex;
+      margin: 6rem auto;
+      /* padding: 0rem 5rem 0rem 5rem; */
+      max-width: 1125px;
+    }
+    
+    .brief {
+      margin-top: 6rem;
+      max-width: 600px;
+      margin-left: 0rem;
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    /* process */
+    
+    .process {
+      padding: 6rem auto;
+      text-align: left;
+    }
+    
+    .process h2 {
+      text-align: center;
+    }
+    
+    /* grid for "the process" */
+    .process-explanation {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-auto-rows: repeat(2, 1fr);
+      justify-items: start;
+      max-width: 1000px;
+      margin-top: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .process-explanation ul {
+      padding-left: 0rem;
+      list-style-type: square;
+      margin-left: 2rem;
+    }
+    
+    .icon_process {
+      width: 25%;
+    }
+    
+    .project-discovery-grid {
+      grid-column-start: 2;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    
+    .information-architecture-grid {
+      grid-column-start: 8;
+      grid-column-end: 12;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    
+    .strategy-grid {
+      grid-column-start: 2;
+      grid-column-end: 6;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    
+    .visual-design-grid {
+      grid-column-start: 8;
+      grid-column-end: 12;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    
+    /* brief */
+    
+    /* hide to test */
+    /* .brief {
+      margin-bottom: 6rem;
+    } */
+    
+    /* grid for "brief specs" */
+    .brief_specs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* grid-auto-rows: repeat(2, 1fr); */
+      justify-items: center;
+      max-width: 1120px;
+      /* margin-top: 15rem; */
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+    
+    .brief_specs ul {
+      padding-left: 0rem;
+      list-style-type: square;
+      margin-left: 2rem;
+    }
+    
+    /* grid for "research percentages" */
+    .research-percentages {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 4rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      margin: 0 auto;
+      max-width: 1120px;
+    }
+    
+    /* research */
+    
+    .research {
+      margin: 0 auto;
+      max-width: 560px;
+      /* padding-bottom: 6rem; hide to test */
+    }
+    
+    /* analysis */
+    
+    /* grid for "research percentages" */
+    .analysis-grid {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      align-items: start;
+      margin: 6rem auto 0 auto;
+      max-width: 800px;
+    }
+    
+    .analysis-grid img {
+      width: 35%;
+      margin-top: 1rem;
+    }
+    
+    .analysis-grid p {
+      margin-bottom: 3rem;
+    }
+    
+    .icloud-txt p {
+      margin-bottom: 0rem;
+    }
+    
+    /* personas */
+    
+    .user-personas {
+      margin-top: 6rem;
+      max-width: 600px;
+      margin-left: 0rem;
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    .personas {
+      display: flex;
+      padding: 0 0rem;
+    }
+    
+    .persona-1 {
+      margin-right: 4rem;
+      flex: 1;
+    }
+    
+    .persona-2 {
+      margin-left: 4rem;
+      flex: 1;
+    }
+    /* stories */
+    
+    .stories {
+      margin-bottom: 6rem;
+      margin-top: 6rem;
+      max-width: 600px;
+      margin-left: 0rem;
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    /* flows */
+    
+    .user-flows {
+      margin-top: 6rem;
+      max-width: 600px;
+      margin-left: 0rem;
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    /* usability-testing */
+    
+    .usability-testing-explanation {
+      padding: 0 0rem;
+    }
+    
+    .usability-testing-explanation p {
+      /* color: red; */
+      padding-top: 1.5rem;
+    }
+    
+    .usability-testing-explanation {
+      display: flex;
+    }
+    
+    .usability-testing-explanation-left {
+      margin-right: 4rem;
+      margin-top: 3rem;
+      flex: 1;
+    }
+    
+    .usability-testing-explanation-right {
+      margin-left: 4rem;
+      flex: 1;
+    }
+    
+    /* .usability-testing-explanation-global h4 {
+      margin-bottom: 0;
+      margin-top: 10rem;
+    } */
+    
+    .usability-testing-explanation-global h4 {
+      margin: 10rem 0rem 2rem 0rem;
+    }
+    
+    /* wireframes and testing */
+    
+    .wireframes-images-left {
+      margin-top: 6rem;
+    }
+    
+    .wireframes {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    .wireframes-images {
+      display: flex;
+    }
+    
+    .wireframes-images-left {
+      margin-right: 4rem;
+    }
+    
+    .wireframes-images-right {
+      margin-left: 4rem;
+      margin-top: 6rem;
+    }
+    
+    /* prototype */
+    
+    .prototype-images {
+      margin-top: 6rem;
+    }
+    
+    .prototype-background {
+      margin-bottom: 8rem;
+    }
+    
+    .prototype-img {
+      width: 100%;
+      /* padding: 4px 15rem; */
+    }
+    
+    .prototype-images {
+      display: flex;
+    }
+    
+    .prototype-images-left {
+      margin-right: 4rem;
+    }
+    
+    .prototype-images-right {
+      margin-left: 4rem;
+    }
+    
+    /* usability testing round 2 */
+    
+    .prototype-testing-explanation {
+      display: flex;
+    }
+    
+    .prototype-testing-explanation p {
+      /* color: red; */
+      padding-top: 1.5rem;
+    }
+    
+    .prototype-testing-explanation-left {
+      margin-right: 4rem;
+      margin-top: 3rem;
+      Flex: 1;
+    }
+    
+    .prototype-testing-explanation-right {
+      margin-left: 4rem;
+      flex: 1;
+    }
+    
+    .prototype-testing-explanation-global h4 {
+      margin-bottom: 0;
+      margin-top: 10rem;
+    }
+    
+    /* remote-test */
+    
+    .remote-test-explanation {
+      margin-top: 6rem;
+    }
+    
+    .remote-test-explanation {
+      display: flex;
+    }
+    
+    .remote-test-explanation-left {
+      margin-right: 4rem;
+      margin-top: 3rem;
+    }
+    
+    .remote-test-explanation-right {
+      margin-left: 4rem;
+    }
+    
+    /* preference */
+    
+    .preference-explanation {
+      padding: 0 0rem;
+    }
+    
+    .preference-explanation {
+      display: flex;
+    }
+    
+    .preference-a {
+      margin-right: 4rem;
+    }
+    
+    .preference-b {
+      margin-left: 4rem;
+    }
+    
+    .preference-explanation-global h4 {
+      margin: 10rem 0rem 1.5rem 0rem;
+    }
+    
+    /* highlights */
+    
+    .product-highlights-txt {
+      margin-bottom: 5rem;
+    }
+    
+    .product-highlights-explanation {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 20rem;
+    }
+    
+    .product-highlights-explanation-img {
+      /* margin-right: 5rem; */
+    }
+    
+    .product-highlights-explanation-txt {
+      margin-left: 5rem;
+    }
+    
+    .product-highlights-explanation img {
+      margin-top: 0rem;
+    }
+    
+    .product-highlights-explanation h4 {
+      margin-top: 0rem;
+    }
+    
+    /*******************************
+    ******************* Contact ***
+    ********************************/
+    
+    .banner-contact {
+      margin-top: 0rem;
+      margin: 0 2rem;
+      margin-bottom: 0rem;
+    }
+    
+    .contact-form {
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+    }
+    
+    } /* end of @media screen 640px */
+    
+    @media screen and (min-width: 1000px) {
+    
+    /* global controls */
+    
+    /* body {
+        background-color: lightgreen;
+    } */
+    
+    .margin {
+      margin: 0 auto;
+      max-width: 1000px;
+      padding: 0 3rem;
+    }
+    
+    h1 {
+      font-size: 10rem;
+    }
+    
+    h2 {
+      color: #073443;
+      font-family: 'Poppins', 'sans serif';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 5rem;
+      text-align: center;
+    }
+    
+    .button {
+        padding: 2rem;
+    }
+    
+    .button-btp {
+      margin: 4rem 45rem 0 45rem;
+    }
+    
+    hr {
+      margin: 4rem 7.5rem;
+      /* margin: 0 auto; */
+      /* padding: 0 500rem; */
+      border: 0.1rem gray solid;
+      /* width: 200rem; */
+      /* width: 50%; */
+    }
+    
+    .icon {
+      width: 6%;
+      margin: 0rem 15rem 0rem 0rem;
+      text-align: left;
+    }
+    
+    .icon-fix {
+      width: 15%;
+      margin: 0rem 15rem 0rem 0rem;
+      text-align: left;
+    }
+    
+    .block {
+      margin: 0 auto;
+    }
+    
+    .block img {
+      width: 100%;
+      /* margin: 3rem auto; */
+      padding: 0 5rem;
+      max-width: 1200px;
+    }
+    
+    video {
+      margin-top: 0rem;
+    }
+    
+    .takeaways {
+      margin: 0 auto 10rem auto;
+    }
+    
+    /* navigation */
+    
+    .nav_logo {
+      margin-left: 13.5rem;
+      width: 3rem;
+    }
+    
+    .nav_links {
+      margin-right: 13.5rem;
+    }
+    
+    .nav_links a {
+        font-size: 1.5rem;
+    }
+    
+    /* banner */
+    
+    .banner {
+    
+      margin: 0 auto;
+    }
+    
+    .banner_txt {
+      padding-top: 0rem;
+      padding-left: 11.5rem;
+    }
+    
+    .banner p {
+      max-width: 800px;
+      font-size: 3rem;
+      line-height: 4.5rem;
+    }
+    
+    .banner h2 {
+      text-align: left;
+    }
+    
+    /* projects */
+    
+    .project_txt p {
+        font-size: 1.9rem;
+        line-height: 2.9rem;
+        max-width: 450px;
+    }
+    
+    /* latest */
+    
+    .latest {
+      margin: 8rem 3rem;
+    }
+    
+    /* my process */
+    
+    .my-process {
+      margin: 10rem auto;
+      margin-bottom: 5rem; /* fixes the flexbox with the processes below */
+        max-width: 750px;
+    }
+    
+    .my-process h2 {
+      font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .my-process p {
+        font-size: 2rem;
+      line-height: 3rem;
+    }
+    
+    .my-process-definition {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .my-process-definition img {
+      width: 20%;
+    }
+    
+    .my-process-definition-box {
+      padding-bottom: 15rem;
+      border-bottom: 0px white solid;
+      margin: 0 2rem;
+      max-width: 500px
+    }
+    
+    /****************************
+    ******************* Contact ***
+    *****************************/
+    
+    .contact-form {
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+      padding: 0 15rem;
+    }
+    
+    /****************************
+    ******************* About ***
+    *****************************/
+    
+    .banner-bio_img {
+        max-width: 47%;
+      margin: 0 auto;
+    }
+    
+    .bio-story {
+      margin: 5rem auto;
+        max-width: 750px;
+    }
+    
+    .bio-story h3 {
+      margin: 8rem 0 2rem 0;
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+    }
+    
+    /*******************************
+    ******************* Projects ***
+    ********************************/
+    
+    /* project-banner */
+    
+    .project-banner .project-banner_img {
+      width: 200%;
+    }
+    
+    .project-banner_img {
+        max-width: 100%;
+        padding-right: 5rem;
+    }
+    
+    .project-banner {
+        display: flex;
+        align-items: center;
+      flex-direction: row-reverse;
+      padding-bottom: 10rem;
+      padding-top: 15rem;
+    }
+    
+    .project-banner_txt p {
+        text-align: left;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+      max-width: 500px;
+    }
+    
+    .project-banner_txt {
+        padding: 0 1rem 0 0rem;
+    }
+    
+    /* summary */
+    
+    .summary {
+      margin: 6rem auto 10rem auto;
+        max-width: 650px;
+    }
+    
+    .summary h2 {
+      margin: 10rem 0;
+    }
+    
+    /* brief */
+    
+    .brief_specs {
+      margin-bottom: 10rem;
+    }
+    
+    .icon-txt-grid {
+      display: flex;
+      margin: 10rem auto;
+      /* padding: 0rem 5rem 0 5rem; */
+      max-width: 1125px;
+    }
+    
+    .brief {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* process */
+    
+    /* .process {
+      padding: 10rem auto;
+      text-align: left;
+    } */
+    
+    
+    /* research */
+    
+    .research {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* competitive */
+    
+    .analysis_intro {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* personas */
+    
+    .user-personas {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .personas img {
+      display: flex;
+      margin-top: 0rem;
+    }
+    
+    .persona-1 {
+      margin-right: 4rem;
+    }
+    
+    .persona-2 {
+      margin-left: 4rem;
+    }
+    
+    /* stories */
+    
+    .stories {
+      margin-bottom: 6rem;
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* flows */
+    
+    .user-flows {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* wireframes and testing */
+    
+    .wireframes {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .wireframes-images {
+      display: flex;
+    }
+    
+    .wireframes-images-left {
+      margin-right: 4rem;
+    }
+    
+    .wireframes-images-right {
+      margin-left: 4rem;
+      margin-top: 6rem;
+    }
+    
+    /* usability testing explanation */
+    
+    .usability-testing {
+      margin: 10rem auto 0 auto;
+      max-width: 740px;
+    }
+    
+    .usability-testing-explanation {
+      display: flex;
+      height: 100%;
+    }
+    
+    .usability-testing-explanation-left {
+      margin-right: 4rem;
+      margin-top: 3rem;
+      flex: 1;
+    }
+    
+    .usability-testing-explanation-right {
+      margin-left: 4rem;
+      flex: 1;
+    }
+    
+    .usability-testing-explanation-global h4 {
+      margin-bottom: 0;
+      margin-top: 10rem;
+    }
+    
+    /* prototype */
+    
+    .prototype {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .prototype-background {
+      margin-bottom: 8rem;
+    }
+    
+    .prototype-img {
+      width: 100%;
+      /* padding: 4px 15rem; */
+    }
+    
+    .prototype-images {
+      display: flex;
+    }
+    
+    .prototype-images-left {
+      margin-right: 4rem;
+    }
+    
+    .prototype-images-right {
+      margin-left: 4rem;
+    }
+    
+    /* usability testing round 2 */
+    
+    .prototype-testing {
+      margin: 10rem auto 0 auto;
+      max-width: 740px;
+    }
+    
+    .prototype-testing-explanation {
+      display: flex;
+    }
+    
+    .prototype-testing-explanation-left {
+      margin-right: 4rem;
+      margin-top: 3rem;
+      Flex: 1;
+    }
+    
+    .prototype-testing-explanation-right {
+      margin-left: 4rem;
+      Flex: 1;
+    }
+    
+    .prototype-testing-explanation-global h4 {
+      margin-bottom: 0;
+      margin-top: 10rem;
+    }
+    
+    /* remote test */
+    
+    .remote-test {
+      margin: 10rem auto 0 auto;
+      max-width: 650px;
+    }
+    
+    .remote-test-explanation {
+      display: flex;
+    }
+    
+    .remote-test-explanation-left {
+      margin-right: 4rem;
+      margin-top: 3rem;
+    }
+    
+    .remote-test-explanation-right {
+      margin-left: 4rem;
+    }
+    
+    /* branding */
+    
+    .branding_intro {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* preference */
+    
+    .preference {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .preference-explanation {
+      display: flex;
+    }
+    
+    .preference-a {
+      margin-right: 4rem;
+    }
+    
+    .preference-b {
+      margin-left: 4rem;
+    }
+    
+    /* highlights */
+    
+    .product-highlights {
+      margin-top: 6rem;
+      max-width: 650px;
+      margin-left: 0rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .product-highlights-txt {
+      margin-bottom: 5rem;
+    }
+    
+    .product-highlights-explanation {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 20rem;
+    }
+    
+    .product-highlights-explanation-img {
+      /* margin-right: 5rem; */
+      width: 55%;
+      margin-left: 12rem;
+      border: solid gray .1rem;
+    }
+    
+    .product-highlights-explanation-txt {
+      margin-left: 5rem;
+    }
+    
+    .product-highlights-explanation img {
+      margin-top: 0rem;
+    }
+    
+    .product-highlights-explanation h4 {
+      margin-top: 0rem;
+    }
+    
+    /* learned */
+    
+    .what-learned_txt {
+      margin: 6rem auto;
+      max-width: 650px;
+    }
+    
+    .what-learned_txt h2 {
+      margin: 8rem 0;
+    }
+    
+    .see {
+      display: flex;
+    }
+    
+    /* read next */
+    
+    .read-next-boxes {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0rem;
+    }
+    
+    .read-next-box {
+      padding: 5rem 10rem;
+      margin: 0 5rem 10rem 5rem;
+      /* background-color: #F2F2F2; */
+    }
+    
+    /* footer */
+    
+    footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      padding: 8rem 3rem;
+      margin: 0 auto;
+    }
+    
+    /* .footer_txt {
+      margin-left: 5rem;
+    } */
+    
+    .footer_txt h2 {
+      margin-bottom: 0rem;
+      font-size: 5rem;
+    }
+    
+    .footer_icons {
+      text-align: left;
+    }
+    
+    /* .footer_copyright {
+      margin-left: 10rem;
+    } */
+    
+    .footer_copyright p {
+      margin-top: 0rem;
+    }
+    
+    } /* end of @media screen 1025px */
+
+    @media and (min-width: 320px) {
+      .preview {
+        width: 40%;
+      }
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .preview {
+        width: 40%;
+      }
+    }
+    
+    
+    @media only screen and (min-width: 1000px) {
+      .preview {
+        width: 20%;
+      }
+    }

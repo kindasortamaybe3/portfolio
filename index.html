@@ -3,35 +3,41 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163851565-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163851565-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-163851565-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-163851565-1');
+    </script>
 
 
     <meta charset="UTF-8" />
     <meta name="author" content="Kara Bruce">
     <meta name="description"
         content="UX/UI Designer with special interest in Frontend Development. Forever analysing the expanding world of economics, advertising and psychology.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio | Kara Bruce</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="styles/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/css/style.css">
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
     <!--<link rel="stylesheet" href="/styles/mediaqueries.css">-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/v4-shims.js"></script>
+
 </head>
 
 
-/*
-<body class="back-to-top">
+<body>
     <!--NAVIGATION-->
-    <nav class="nav">
+    <nav>
         <a href="./index.html">
             <img src="/media/images/karalogo.svg" class="nav_logo"="Kara Bruce Logo" /></a>
         <div class="nav_links">
@@ -51,7 +57,6 @@
         <!--BANNER = INTRO-->
         <section class="banner" data-aos="zoom-out">
             <div class="banner_txt">
-                <!--Do I need div class if i have section classes?-->
                 <!-- banner -->
                 <h1>Hi, </br>My name is Kara.</h1>
                 <p>UX/UI Designer with special interest in Frontend Development.</p>
@@ -66,10 +71,10 @@
         </section>
         <!-- <a href="./pages/projects.html" class="button">See my recent projects</a> -->
         <!-- <img src="./media/images/caret-down-solid.svg" alt="Click this arrow to seemy latest projects"/> -->
-        </section>
+
         <!--Project/Article One-->
-        <section class="project project-dark">
-            <div class="project_txt">
+        <section class="project-gameof">
+            <div class="project_txt-right">
                 <h3>UX | UI | Branding</h3>
                 <h2>Game Of...</h2>
                 <p>
@@ -77,46 +82,41 @@
                     others who enjoy the same sports, who want to push each other to
                     progress and most importantly, have fun!
                 </p>
+                <a class="button-light" href="/project.html">See Case Study</a>
             </div>
-            <div class="project img">
-                <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
-            </div>
-            <!--ADD SITE LINK HERE-->
-            <a class="button-dark" href="/project.html">See Case Study</a>
-        </section>
-        <!--Project/Article Two-->
-        <section class="project-light">
-            <div class="project_txt">
-                <h3>Javascript | JQuery | HTML/CSS</h3>
-                <h2>Bloc Jams</h2>
-                <p>
-                    A starter project for Bloc's JQuery centric music player application.
-                </p>
-            </div>
-            <div class="project img-2">
-                <img src="/media/images/BlocJam.png" alt="View of Bloc Jams Interface" />
-            </div>
-            <!--ADD SITE LINK HERE-->
-            <a class="button-light" href="https://kb-bloc-jams.netlify.com/">View Website</a>
-        </section>
+            <img src="/media/images/PlayerProfile.png" alt="View of Game Of... on a phone" />
+    </div>
+    <!--ADD SITE LINK HERE-->
+    </section>
+    <!--Project/Article Two-->
+    <section class="project-blocjams">
+        <div class="project_txt-left">
+            <h3>Javascript | JQuery | HTML/CSS</h3>
+            <h2>Bloc Jams</h2>
+            <p>
+                A starter project for Bloc's JQuery centric music player application.
+            </p>
+            <a class="button-dark" href="https://kb-bloc-jams.netlify.com/">View Website</a>
+        </div>
+        <img src="/media/images/BlocJam.png" alt="View of Bloc Jams Interface" />
+    </section>
 
-        <!--Project/Article Three-->
-        <section class="project-dark">
-            <!--Is this deemed "full stack"?-->
-            <div class="project_txt">
-                <h3>UX | UI | Branding | Javascript | HTML/CSS</h3>
-                <h2>Busy Bus</h2>
-                <p>
-                    Full Stack Project based around commuters requiring an improved travel
-                    experience.
-                </p>
-            </div>
-            <div class="project img">
-                <img src="/media/images/BusyBus.png" alt="View of Busy Bus Interface" />
-            </div>
-            <!--ADD SITE LINK HERE-->
-            <a class="button-dark" href="https://kindasortamaybe3.github.io/busybus/">View Prototype</a>
-        </section>
+    <!--Project/Article Three-->
+    <section class="project project-busybus">
+        <!--Is this deemed "full stack"?-->
+        <div class="project_txt-right">
+            <h3>UX | UI | Branding | Javascript | HTML/CSS</h3>
+            <h2>Busy Bus</h2>
+            <p>
+                Full Stack Project based around commuters requiring an improved travel
+                experience.
+            </p>
+            <a class="button-light" href="https://kindasortamaybe3.github.io/busybus/">View Prototype</a>
+        </div>
+        <img src="/media/images/BusyBus.png" alt="View of Busy Bus Interface" />
+        </div>
+        <!--ADD SITE LINK HERE-->
+    </section>
     </div>
 
     <!--Project/Article Four = THIS WAS ON ANOTHER PORTFOLIO BUT NOT SURE HOW I FEEL ABOUT ADDING SUCH A THING?
@@ -128,7 +128,32 @@
                         find an alternative beneficial way to integrate the results creatively and methodically.
                     </p>
                 </article>-->
+
     <footer class="mdl-mini-footer">
+        <ul class="mdl-mini-footer__link-list">
+            <li><a href"https://www.linkedin.com/in/karabruce/"> <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+
+            <!--FOR SOME REASON THIS ONE IS PROBLEMATIC AND CREATES MANY GITHUBS-->
+            <li><a href"https://github.com/kindasortamaybe3"> <i class="fab fa-github-square" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li><a href"https://www.facebook.com/kara.gaetzbruce"> <i class="fab fa-facebook-square"
+                    aria-hidden="true"></i>
+                </a>
+            </li>
+            <li><a href"https://twitter.com/KaraGaetzBruce"> <i class="fab fa-twitter-square" area-hidden="true"></i>
+                </a>
+            </li>
+            <li><a href"mailto:kindasortamaybe3@gmail.com">
+                    <i class="fas fa-envelope-square" area-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!--<footer class="mdl-mini-footer">
         <ul class="mdl-mini-footer__link-list">
             <li><a href"https://www.linkedin.com/in/karabruce/"> <i class="fab fa-linkedin" aria-hidden="true"></img>
                 </a>
@@ -148,7 +173,7 @@
                 </a>
             </li>
         </ul>
-    </footer>
+    </footer>-->
 </body>
 
 </html>
