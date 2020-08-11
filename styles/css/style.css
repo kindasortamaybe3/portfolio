@@ -371,23 +371,14 @@ h3 {
   text-align: center;
 }
 
-
-footer.mdl-mini-footer {
-  bottom: 0;
-  padding: 0.5rem;
-  position: relative;
-  width: 100%;
-  z-index: 1;
+footer {
+  display: inline;
+  margin-left: 5rem;
+  width: 4rem;
+  padding: 4rem;
 }
 
-footer .mdl-mini-footer>ul {
-  margin: auto;
-  font-size: 2rem;
-  position: absolute;
-}
 
-footer .mdl-mini-footer>li {
-  margin: auto;
-  font-size: 2rem;
-  position: fixed;
-}
+/*footer:hover {
+    background: yellow;
+}*/
