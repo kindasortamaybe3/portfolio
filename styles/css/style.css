@@ -371,14 +371,36 @@ h3 {
   text-align: center;
 }
 
-footer {
-  display: inline;
-  margin-left: 5rem;
-  width: 4rem;
-  padding: 4rem;
+.social-icon {
+  width: 5%;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
 }
 
+.social {
+@media(max-width: 768px){
+  width: 3%;
+}
+}
+
+/*social-icon {
+    width: 30%;
+    @media(max-width: 768px){
+        width: 100%;
+    }
+}
+
+/*Add a wrapper around content and give it a max width, screens nowadays can be wide. So when you give the content a max width it doesn't morph the content
+
+<div class="banner-background">
+    <div class="banner-wrapper"> //max-width of 1100px
+        //content
+    </div>
+</div>
 
 /*footer:hover {
     background: yellow;
 }*/
+
+
