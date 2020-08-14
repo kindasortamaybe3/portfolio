@@ -378,11 +378,6 @@ h3 {
   align-content: center;
 }
 
-.social {
-@media(max-width: 768px){
-  width: 3%;
-}
-}
 
 /*social-icon {
     width: 30%;
